@@ -1,0 +1,89 @@
+.con{
+    width:100%;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    display: flex;
+   margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap:10px;
+}
+.img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+.thanks{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tr{
+width:100%;
+
+}
+.tr th{
+   
+    text-align: left;
+    padding: 8px;
+}
+.tr td{
+   
+    text-align: left;
+    padding: 8px;
+}
+.status{
+    background-color: red;
+    color:white;
+    
+}
+.table{
+    width:100%;
+    
+}
+.items{
+    width:80%;
+    height:auto;
+    max-height: auto;
+    border:1px solid #dddddd;
+    border-radius: 5px;
+    display: flex;
+    padding:10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.itemsrow{
+    width:90%;
+    height:auto;
+   
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap:10px;
+}
+.bottom{
+    width:80%;
+    height:auto;
+    margin-top: 10px;
+}
+.totalcon{
+    width:400px;
+    height:auto;
+    border: 1px solid #dddddd;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    float: right;
+}
+.datacon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height:auto;
+    flex-direction: column;
+}

@@ -1,0 +1,137 @@
+.right{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:auto;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    box-sizing: border-box;
+    gap:20px;
+}
+.topcon{
+    width:100%;
+    height:auto;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    
+}
+.imgcon{
+    width:50%;
+    height:auto;
+    background-color: rgb(240, 253, 240);
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    padding:10px;
+    flex-wrap: wrap;
+    border: 0.5px solid rgb(205, 203, 203);
+    
+}
+.infocon{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.infodata{
+    background-color: rgb(242, 252, 252);
+    padding:2px 10px;
+
+}
+.infodata:hover{
+    background-color: black;
+    color:white;
+}
+.detail{
+    width:100%;
+    height:auto;
+    display: flex;
+    padding:10px;
+    flex-direction: column;
+    gap:30px;
+    margin-top: 20px;
+}
+.detailcon{
+   display: grid;
+   grid-template-columns: 200px auto;
+   gap:20px;
+   cursor: pointer;
+   padding:5px 10px;
+}
+.detailcon:hover{
+    background-color: black;
+    color:white;
+
+
+}
+.pop{
+    position: fixed;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    display: flex;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 2px black;
+    background-color: rgb(255, 121, 3);
+    color:white;
+    border-radius: 9px;
+    width:40%;
+    height:200px;
+    
+}
+.close{
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.popcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    gap:10px;
+    height:100%;
+}
+.img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+.name{
+    
+    color:red;
+}
+.info{
+    width:50%;
+    height:auto;
+    padding:10px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.deleteinput{
+    padding:8px 10px;
+    width:300px;
+}
+.deletecon{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.deleteBut{
+    padding:8px 10px;
+    
+}
+.datacon{
+    width:80%;
+    height:auto;
+    background-color: aliceblue;
+}

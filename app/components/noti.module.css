@@ -1,0 +1,26 @@
+.con{
+    position: fixed;
+    top:80px;
+    right:50px;
+    min-width:200px;
+    min-height: 35px;
+    background-color: rgb(235, 232, 230);
+    padding:5px 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  animation: con 2s ease;
+    border-left: 4px solid rgb(255, 128, 0);
+    z-index: 10;
+   
+}
+.connone{
+    display: none;
+}
+@keyframes con {
+   0%{right:0px;}
+   20%{right:30px}
+   100%{right:40px;}
+}

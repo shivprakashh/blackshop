@@ -1,0 +1,201 @@
+.caculate{
+
+    width:100%;
+    margin-right: auto;
+    padding:10px;
+    box-sizing: border-box;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:10px;
+
+}
+.total{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+   color:green;
+   
+}
+.on{
+    width:60%;
+    height:auto;
+  margin:auto;
+    display: flex;
+    flex-direction: column;
+  border:1px solid rgba(195, 192, 192, 0.871);
+    align-items: center;
+    padding:10px;
+    box-sizing: border-box;
+   border-radius: 7px;
+    gap:10px;
+    color:rgb(0, 0, 0);
+ 
+  
+}
+.cartopencon{
+    width:auto;
+    padding:8px 2px;
+    box-sizing: border-box;
+    border-bottom:1px solid rgba(220, 220, 220, 0.333);
+   background-color: var(--third-color);
+   display:flex;
+   flex-direction: row;
+   gap:5px;
+   height:160px
+  
+   
+}
+.iconcon{
+    background-color: rgb(210, 237, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    color:white;
+    height:30px;
+}
+.quantity{
+    color:rgb(0, 0, 0);
+    font-size: 19px;
+    
+}
+.cartopentext{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       display: flex;
+       color:rgb(0, 0, 0);
+       align-items: center;
+       font-weight: 100;
+       
+       letter-spacing: 1px;
+       justify-content: center;
+       
+   }
+   .brand{
+    font-family: 'Poppins', sans-serif;
+      
+       color:orange;
+       
+       font-weight: 100;
+       font-size: 24px;
+       letter-spacing: 1px;
+       
+       
+   }
+   .fprice{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 700;
+
+
+   }
+   .cartopenimg{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.increaseconinside{
+    
+    display: flex;
+    flex-direction: row;
+   color:black;
+   align-items: center;
+   
+  
+    gap:10px;
+   margin-top: 20px;
+    
+}
+.datacon{
+    background-color: rgb(255, 255, 255);
+    width:300px;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.pophave{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index: 4;
+    background-color: rgba(15, 15, 15, 0.862);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popnone{
+    display: none;
+    background-color: red;
+}
+.buy{
+    padding:10px 13px;
+    width:200px;
+    background-color: black;
+    font-size: 18px;
+    color:yellow;
+    border-radius: 7px;
+    margin-left:auto;
+}
+.delete{
+    color:rgb(163, 162, 162);
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+.delete:hover{
+    color:black;
+    cursor: pointer;
+}
+@media (max-width:800px) {
+    .cartopencon{
+        width:100%;
+        padding:8px 2px;
+        box-sizing: border-box;
+        border-bottom:1px solid rgba(212, 211, 211, 0.56);
+       background-color: var(--third-color);
+     
+      
+       gap:30px;
+       justify-content: space-around;
+       align-content: center;
+       background-color: rgb(255, 255, 255);
+    }  
+    .cartopentext{
+        font-size: 14px;
+        
+        width:100px;
+    }
+    .cartopentextbrand{
+        font-size: 14px;
+        color:orange;
+
+        width:100px;
+           
+       }
+    .on{
+        width:100%;
+       
+      padding:2px;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        
+        box-sizing: border-box;
+      
+       
+        color:rgb(0, 0, 0);
+     
+      
+    } 
+}

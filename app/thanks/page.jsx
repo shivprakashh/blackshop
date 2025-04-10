@@ -9,7 +9,7 @@ import { Lobster} from 'next/font/google'
   
 const roboto = Lobster({
   weight: '400',
-  subsets: ['Latin'],
+  subsets: ['latin'],
 })
 export default function Successful() {
   const searchParams = useSearchParams();
